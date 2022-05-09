@@ -1,0 +1,247 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#homeBody {
+    background-color: rgb(30, 30, 30);
+    width: 99%;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+    .titleText {
+        display: flex;
+        position: absolute;
+        text-align: center;
+        color: antiquewhite;
+        outline-color: black;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 650%;
+        margin-top: 3%;
+        z-index: 1;
+        text-shadow: 
+        -1px 0px black, 
+        1px 0px black,
+        0px 1px black,
+        0px -1px black;
+    }
+
+    .titleImage {
+        display: flex;
+        position: absolute;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -1;
+    }
+
+        .titleImg {
+            display: flex;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 35%;
+        }
+
+form {
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 40%;
+    text-shadow: 
+    -1px 0px black, 
+    1px 0px black,
+    0px 1px black,
+    0px -1px black;
+}
+
+    .formInfo {
+        justify-content: center;
+        margin-top: 13.5%;
+    }        
+
+        .enterInfo {
+            display: flex;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-evenly;
+            width: 80%;
+            height: 10%;
+        }
+
+            .monsterAttribute, .monsterName {
+                width: 65%;
+                height: 45%;
+                box-sizing: border-box;
+                border: 2px solid black;
+                box-shadow: 1px 2px rgba(118, 118, 118, 0.558);
+            }
+
+        .monsterLevelLabel {
+            display: flex;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-evenly;
+            width: 25%;
+        }
+
+            .radioLevel {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: space-evenly;
+                width: 25%;
+            }
+
+            .monsterLevelBlock {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: space-evenly;
+            }
+
+        .findMonster {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+            box-shadow: 1px 2px rgba(118, 118, 118, 0.558);
+        }
+
+.warnMess {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+    outline-color : black;
+}
+
+.monsterAttributeLabel, .monsterFullNameLabel {
+    color: antiquewhite;
+    outline-color: black;
+    font-size: xx-large;
+}
+
+.monsterLevel {
+
+}
+
+.monsterLevelLabel {
+    color: antiquewhite;
+    outline-color: black;
+    font-size: xx-large;
+}
+.monsterLevelLabelNone, .monsterLevelLabelTranscended, .monsterLevelLabelAscended {
+    color: antiquewhite;
+    outline-color: black;
+    font-size: large;
+}
+
+.findMonster {
+    font-size: x-large;
+    margin: auto;
+}
+
+.compareSection {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-shadow: 
+    -1px 0px black, 
+    1px 0px black,
+    0px 1px black,
+    0px -1px black;
+}
+    
+    .compareLabel {
+        font-size: x-large;
+        color: antiquewhite;
+        outline-color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .compareText {
+        font-size: xx-large;
+        color: red;
+        outline-color: black;
+        border-color: antiquewhite;
+        border-width: 15%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.monsterInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-shadow: 
+    -1px 0px black, 
+    1px 0px black,
+    0px 1px black,
+    0px -1px black;
+}
+
+    .main {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .generalInfo, .resistInfo, .effectInfo {
+        display: flex;
+        justify-content: space-between;
+        width: 33%;
+    }
+
+        .monsterNameSection, .monsterBaseHealthSection, .monsterDipSection, .monsterPhysDefSection, .monsterMagDefSection, .monsterHealthEffSection, .monsterDipEffSection, .monsterImgImage {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .monsterNameLabel, .monsterBaseHealthLabel, .monsterDipLabel, .monsterPhysDefLabel, .monsterMagDefLabel, .monsterHealthEffLabel, .monsterDipEffLabel {
+            font-size: large;
+            color: antiquewhite;
+            outline-color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .monsterNameText, .monsterBaseHealthText, .monsterDipText, .monsterPhysDefText, .monsterMagDefText, .monsterHealthEffText, .monsterDipEffText {
+            font-size: medium;
+            color: antiquewhite;
+            outline-color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+    .imageInfo {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .monsterImgImage {
+        width: 50%;
+    }
+
+#footer {
+    align-content:center;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 10%;
+}
+    #footer .footerInfo h1 {
+        text-align: right;
+        font-size: 1vw;
+    }

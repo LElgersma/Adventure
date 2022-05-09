@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Adventure Time</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body id="homeBody">
+        <!-- Find Form -->
+        <form>
+            <!-- Title -->
+            <div id="title" class="title">
+                <p id="titleText" class="titleText">Adventure!</p>
+                <div id="titleImage" class="titleImage">
+                    <img id="titleImg" class="titleImg" src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2019/08/Pathfinder-Kingmaker-Cover.jpg">
+                </div>
+            </div>
+            <!-- End Title -->
+                <div id="formInfo" class="formInfo">
+                <!-- Enter information -->
+                <div id="enterInfo" class="enterInfo">
+                    <!-- Monster Attribute -->
+                    <div>
+                        <label class="monsterAttributeLabel">Monster Attribute</label>
+                        <input id="monsterAttribute" class="monsterAttribute" placeholder="Attribute" type="text" required>
+                    </div>
+                    <!-- End Monster Attribute-->
+
+                    <!-- Monster Name -->
+                    <div>
+                        <label class="monsterFullNameLabel">Monster Name</label>
+                        <input id="monsterName" class="monsterName" placeholder="Name" type="text" required>
+                    </div>
+                    <!-- End Monster Name -->
+                </div>
+                <!-- End enter information -->
+
+                <!-- Level -->
+                <label class="monsterLevelLabel">Monster Level</label>
+                <div id="radioLevel" class="radioLevel">
+                    <div id="monsterLevelNoneBlock" class="monsterLevelBlock">
+                        <label class="monsterLevelLabelNone" for="monsterLevelNone">None</label>
+                        <input id="monsterLevelNone" class="monsterLevel" name="levels" type="radio" value="" checked="checked">
+                    </div>
+
+                    <div id="monsterLevelTranscendedBlock" class="monsterLevelBlock">
+                        <label class="monsterLevelLabelTranscended" for="monsterLevelTranscended">Transcended</label>
+                        <input id="monsterLevelTranscended" class="monsterLevel" name="levels" type="radio" value="Transcended ">
+                    </div>
+
+                    <div id="monsterLevelAscendedBlock" class="monsterLevelBlock">
+                        <label class="monsterLevelLabelAscended" for="monsterLevelAscended">Ascended</label>
+                        <input id="monsterLevelAscended" class="monsterLevel" name="levels" type="radio" value="Ascended ">
+                    </div>
+                </div>
+                <br>
+                <!-- End Level -->
+
+                <!-- Sumbit Button to find monster -->
+                <button id="findMonster" class="findMonster" type="button" onclick="displayMonster()">Find Monster</button>
+                <!-- End Submit Button -->
+            </form>
+            <!-- End find form -->
+        </div>
+
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+
+    <footer id="footer">
+        <div class="footerInfo">
+            <h1>Created by: Landon Elgersma</h1>
+            <h1>Last Update: 4/28/21</h1>
+        </div>
+    </footer>
+
+</html>
